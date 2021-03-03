@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  
+  <div class="container">
+
+<script  src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <h1 id="title"> Coke vs Pepsi </h1>
+  
+  <strong> <p id="description"> What do you prefer. Coke or Pepsi?</p> 
+  
+ <form id="survey-form">
+  
+   <div class="Name">
+     
+   <label for="name" id="name-label"> Name: </label>
+     
+  <input type="text" required id="name" placeholder="Enter Name" name="Name"> 
+   </div>
+   
+   <br>
+   
+    <div class="Email">
+      
+   <label for="email" id="email-label"> Email: </label>
+ <input type="email" required id="email" placeholder="Enter E-Mail" name="Email">
+   </div>
+   
+
+<br>
+   
+   <div class="Age">
+     
+   <label for="age" id="number-label"> Age: </label>
+<input type="number" id="number" placeholder="age" name="Age" min="18" max="100" required>
+   
+   </div>
+   
+   <br>
+   
+   <div class="dropdown">
+   
+   <label for="dropdown" id="model"> Select which soft drink you favor: </label>
+   
+ <select id="dropdown">
+   
+   <option value="Coke"> Coke </option>
+   
+   <option value="Pepsi"> Pepsi </option>
+   
+</select>
+   
+   
+   </div>
+   
+   <br>
+   
+   <div class="Genetics">
+   
+   <label for="caucasian"> Race:
+   <input type="radio" name="race" value="w" id="white"> Caucasian </label>
+     
+   <label for="African-American">
+     <input type="radio" name="race" value="b" id="white"> African-American </label>
+     
+    <label for="Asian">
+      <input type="radio" value="y" id="yellow" name="race"> Asian </label>
+     
+    <label for="Hispanic">
+      <input type="radio" value="s" id="spanish" name="race"> Hispanic </label>
+     
+     <label for="Other">
+      <input type="radio" value="o" id="spanish" name="race"> Other </label>
+   
+</div>
+   
+   <br>
+   
+   <div class="soft-drinks">
+     
+     <label for="Welch's"> Besides Coke and Pepsi, what other soft-drinks do you like: <input type="checkbox" value="welch's" id="Welch's" name="Soda"> Welch's </label>
+     
+     <label for="Sprite">
+       <input type="checkbox" value="sprite" id="Sprite" name="Soda"> Sprite </label>
+     
+     <label for="Dr.Pepper">
+       <input type="checkbox" value="dr.pepper" id="Dr.pepper" name="Soda"> Dr.Pepper </label>
+     
+     <label for="none">
+       <input type="checkbox" value="None" id="none" name="Soda"> None </label>
+       
+     
+   </div>
+   
+   <br>
+   
+   <div class="textarea">
+     
+<label for="textarea"> Additional Comments: </label>
+     
+     <textarea id="textarea" name="instructions" rows="5" cols="40"> </textarea>
+     
+   </div>
+   
+   <br>
+   
+   <div class="Submit-button">
+     
+   <label for="submit-button">
+          
+     <button type="submit" id="submit" name="sub-button" placeholder=""> Submit </label>
+     
+ </div>
+     
+</form>
+   
+   <img class="Coke-Pepsi-img" src="https://content.fortune.com/wp-content/uploads/2015/08/cokevspepsi.jpg">
+
+  
+</body>
+  
+</div>
+
+
+
+</html>
